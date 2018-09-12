@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/canvas.png</file>
+        <file>pics/save.png</file>
+        <file>pics/backspace.png</file>
+        <file>pics/create.png</file>
+        <file>pics/open.png</file>
+        <file>pics/build.png</file>
+        <file>pics/add.png</file>
+        <file>pics/remove.png</file>
+    </qresource>
+</RCC>
