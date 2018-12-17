@@ -96,11 +96,12 @@ qreal Processor::detA(const Processor::Matrix &m)
     }
     else
     {
-        qreal rez = 0;
+        qreal rez = 0.0;
         for(int i(0); i < m.size(); i++)
         {
             rez += m[0][i] * pow(-1, i) * detA( getMinor(m, i) );
         }
+        return rez;
     }
 }
 
